@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "miraculous",
+  "version": "${version}",
+  "name": "Miraculous",
+  "description": "A Fabric port of the Miraculous hero transformation plugin.",
+  "authors": ["Miraculous Mod Project"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.miraculous.MiraculousMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
